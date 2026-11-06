@@ -6,7 +6,7 @@
     header.innerHTML = `
       <div class="wrap nav">
         <a class="brand" href="index.html">
-          <img src="assets/img/logo.svg" alt="SAPEX">
+        <img src="assets/img/sapex-logo.png" alt="SAPEX Logo">
           <span class="brand-text">
             <strong>SAPEX</strong>
             <span>Mining Systems and Processes</span>
