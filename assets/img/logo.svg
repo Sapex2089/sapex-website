@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">SAPEX mark</title>
-  <rect width="64" height="64" rx="8" fill="#14160f"/>
-  <rect x="12" y="12" width="40" height="40" rx="2" fill="none" stroke="#d4783c" stroke-width="2"/>
-  <path d="M22 24h20M22 32h14M22 40h10" stroke="#f3efe6" stroke-width="2" stroke-linecap="square"/>
-  <rect x="38" y="36" width="10" height="10" fill="#b85a28"/>
-</svg>
