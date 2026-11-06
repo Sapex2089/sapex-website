@@ -1,0 +1,17 @@
+about.html
+  h_61b01250831c29 3,5-9,12,14-16,18-26,28-34,36-37,39-46,48-54,56-58,60-68,71,74-112,114,116-123,125,128-162,165-171,173-191,196,198,203-207,209-212,214
+  h_61b01250831c29 10,17,193-195,200-201
+assets/css/index.html
+  h_61b01250831c29 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "272a5a7e24a04d823f68242d0ce07698d263537a",
+  "prompts": {},
+  "humans": {
+    "h_61b01250831c29": {
+      "author": "Isaac Madrino Piwen <isaac@sapexpng.com>"
+    }
+  }
+}
