@@ -9,7 +9,7 @@
   --slate: #4a5244;
   --line: rgba(20, 22, 15, 0.12);
   --line-strong: rgba(20, 22, 15, 0.22);
-  --max: 1120px;
+  --max: 900px;
   --nav-h: 72px;
   --shadow: none;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -314,7 +314,7 @@ p:last-child {
 .split {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
-  gap: 56px;
+  gap: 32px;
   align-items: start;
 }
 
@@ -585,4 +585,18 @@ textarea {
     text-align: center;
     margin-top: 20px;
     color: #cccccc;
+}
+.wrap p,
+.wrap li {
+    max-width: 75ch;
+}
+.director-profile {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.director-profile img {
+    width: 220px;
+    border-radius: 10px;
 }
