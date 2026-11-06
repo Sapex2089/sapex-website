@@ -9,7 +9,7 @@
   --slate: #4a5244;
   --line: rgba(20, 22, 15, 0.12);
   --line-strong: rgba(20, 22, 15, 0.22);
-  --max: 900px;
+  --max: 760px;
   --nav-h: 72px;
   --shadow: none;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -599,4 +599,7 @@ textarea {
 .director-profile img {
     width: 220px;
     border-radius: 10px;
+}
+.page-hero {
+    padding: 40px 0;
 }
