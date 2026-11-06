@@ -555,9 +555,3 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
-body {
-    background-color: red;
-}
-body {
-    background-color: red !important;
-}
