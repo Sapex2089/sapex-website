@@ -1,0 +1,14 @@
+about.html
+  h_61b01250831c29 73-234
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "77cadd61f34501289cfb20d2da26e8d9a3d8619c",
+  "prompts": {},
+  "humans": {
+    "h_61b01250831c29": {
+      "author": "Isaac Madrino Piwen <isaac@sapexpng.com>"
+    }
+  }
+}
