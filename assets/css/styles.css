@@ -603,3 +603,31 @@ textarea {
 .page-hero {
     padding: 40px 0;
 }
+:root {
+  --ink: #14160f;
+  --ink-soft: #2a2e24;
+  --paper: #f3efe6;
+  --paper-2: #e8e2d6;
+  --white: #fcfaf6;
+  --copper: #b85a28;
+  --copper-2: #d4783c;
+  --slate: #4a5244;
+  --line: rgba(20, 22, 15, 0.12);
+  --line-strong: rgba(20, 22, 15, 0.22);
+  --max: 760px;
+  --nav-h: 72px;
+  --shadow: none;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  .page-hero {
+    padding: 40px 0;
+  }.wrap p,
+.wrap li {
+    max-width: 75ch;
+  }.director-profile {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }.director-profile img {
+    width: 220px;
+    border-radius: 10px;
+  }
