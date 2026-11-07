@@ -363,13 +363,14 @@ p:last-child {
 .list-plain li {
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 60px 1fr;
   gap: 16px;
+  align-items: start;
 }
 
-.list-plain li:last-child {
-  border-bottom: 0;
+.list-plain li span {
+  text-align: left;
 }
 
 .stat-row {
