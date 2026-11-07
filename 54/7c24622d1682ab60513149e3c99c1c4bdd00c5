@@ -1,0 +1,15 @@
+assets/css/styles.css
+  h_61b01250831c29 220,593-596,598-602,605-606,608,610-611,613-614,616-620,631
+  h_61b01250831c29 221-222,590,607,612
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "547c24622d1682ab60513149e3c99c1c4bdd00c5",
+  "prompts": {},
+  "humans": {
+    "h_61b01250831c29": {
+      "author": "Isaac Madrino Piwen <isaac@sapexpng.com>"
+    }
+  }
+}
