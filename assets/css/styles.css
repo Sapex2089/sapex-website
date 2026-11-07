@@ -404,8 +404,8 @@ p:last-child {
 
 .service-block {
   display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 24px;
+  grid-template-columns: 80px 1fr;
+  gap: 16px;
   padding: 28px 0;
   border-bottom: 1px solid var(--line);
 }
