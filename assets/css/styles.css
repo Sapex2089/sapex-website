@@ -123,13 +123,12 @@ p:last-child {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
-  min-width: 0;
-}
+  gap: 16px;
+ }
 
 .brand img {
-  width: 65px;
-  height: 650px;
+  width: 70px;
+  height: 70px;
    object-fit: contain;
 }
 
@@ -141,12 +140,12 @@ p:last-child {
 
 .brand-text strong {
   font-family: var(--display);
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
 }
 
 .brand-text span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--slate);
   letter-spacing: 0.02em;
 }
