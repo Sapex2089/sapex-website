@@ -217,7 +217,9 @@ p:last-child {
   border-radius: 4px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: background 0.2s var(--ease), color 0.2s var(--ease);
+
+  transition: background 0.2s var(--ease),
+  color 0.2s var(--ease);
 }
 
 .btn-primary {
@@ -585,20 +587,37 @@ textarea {
     margin-top: 20px;
     color: #cccccc;
 }
-.wrap p,
-.wrap li {
+.wrap p {
     max-width: 75ch;
 }
-.director-profile {
-    display: flex;
-    gap: 24px;
-    align-items: center;
+.list-plain li {
+     max-width: none;
 }
 
-.director-profile img {
-    width: 220px;
-    border-radius: 10px;
+.director-profile {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start; 
+ margin-top: 10px;
 }
+
+.director-profile div {
+      max-width: none;
+} 
+
+.director-profile img {
+    width: 280px;
+    border-radius: 12px;
+}
+.director-profile h3 {
+    margin: 0 0 8px; 
+}
+
+.director-profile p {
+    margin-bottom: 16px;
+}
+
 .page-hero {
     padding: 40px 0;
 }
@@ -609,5 +628,5 @@ textarea {
 }
 
 .page-hero .wrap {
-    max-width: 700px;
+    max-width: 1000px;
  }   
