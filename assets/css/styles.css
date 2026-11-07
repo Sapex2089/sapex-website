@@ -314,8 +314,8 @@ p:last-child {
 
 .split {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 32px;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
   align-items: start;
 }
 
@@ -363,10 +363,7 @@ p:last-child {
 .list-plain li {
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
-  display: grid;
-  grid-template-columns: 60px 1fr;
-  gap: 16px;
-  align-items: start;
+   display: block;
 }
 
 .list-plain li span {
@@ -605,20 +602,12 @@ textarea {
 .page-hero {
     padding: 40px 0;
 }
-/* ABOUT PAGE ONLY */
+/* PAGE WIDTHS */
 
-.page-hero .wrap,
-.about-page .section .wrap {
-    max-width: 700px;
-}
 .hero .wrap {
-    max-width: 1200px;
-}
-.hero .wrap {
-    max-width: 1200px;
+      max-width: 1200px;
 }
 
-.page-hero .wrap,
-.about-page .section .wrap {
+.page-hero .wrap {
     max-width: 700px;
-}
+ }   
